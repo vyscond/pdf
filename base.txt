@@ -1,0 +1,45 @@
+%PDF–1.5
+
+1 0 obj << /Type /Catalog /Pages 2 0 R /Metadata 6 0 R >> endobj % Document catalog
+2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj % Page tree
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R >> endobj % 1s t page
+4 0 obj << /Length 35 >> stream *** Encrypted Page-marking operators *** endstream endobj % Page contents
+5 0 obj << /Title ($#*#%*$#^&##) >> endobj % Info dictionary: encrypted text string
+6 0 obj <<
+
+    /Type /Metadata /Subtype /XML /Length 15 /Filter [/Crypt] % Uses a crypt filter /DecodeParms
+
+    << /Type /CryptFilterDecodeParms /Name /Identity % Indicates no encryption >>
+>>
+    stream
+        XML metadata % Unencrypted metadata
+    endstream
+
+endobj % with these parameters
+
+8 0 obj % Encryption dictionary
+<< /Filter /MySecurityHandlerName
+/V 4 % Version 4: allow crypt filters
+/CF % List of crypt filters
+<< /MyFilter0
+<< /Type /CryptFilter
+/CFM V2 >> % Uses the standard algorithm
+>>
+/StrF /MyFilter0 % Strings are decrypted using /MyFilter0
+/StmF /MyFilter0 % Streams are decrypted using /MyFilter0
+... % Private data for /MySecurityHandlerName
+/MyUnsecureKey (12345678)
+/EncryptMetadata false
+>>
+endobj
+xref
+....
+trailer
+<< /Size 8
+/Root 1 0 R
+/Info 5 0 R
+/Encrypt 8 0 R
+>>
+startxref
+495
+%%EOF
